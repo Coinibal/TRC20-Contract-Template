@@ -11,7 +11,7 @@ import "./ERC20Detailed.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract BitUnits Titan is ERC20, ERC20Detailed {
+contract BitUnitsTitan is ERC20, ERC20Detailed {
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
