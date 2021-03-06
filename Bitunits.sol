@@ -11,12 +11,12 @@ import "./ERC20Detailed.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract BitUnitsTitan is ERC20, ERC20Detailed {
+contract BitUnitsFermium is ERC20, ERC20Detailed {
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("BitUnits Titan", "TITAN", 18) {
-        _mint(msg.sender, 10000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("BitUnits Fermium", "BFM", 18) {
+        _mint(msg.sender, 100 * (10 ** uint256(decimals())));
     }
 }
